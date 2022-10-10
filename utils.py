@@ -114,9 +114,6 @@ def show_answers(image, my_index, grading, answers, number_of_questions, number_
     return image
 
 
-config_tesseract = "--tessdata-dir tessdata"
-
-
 def mostrar(image):
     figura = plt.gcf()
     figura.set_size_inches(20, 10)
