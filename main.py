@@ -75,6 +75,8 @@ if biggest_contour.size != 0 and grade_points.size != 0:
             count_rows += 1
             count_columns = 0
 
+    print(np.matrix(my_pixel_values))
+
     my_index = []
 
     ########FINDING INDEX VALUES OF THE MARKINGS########
